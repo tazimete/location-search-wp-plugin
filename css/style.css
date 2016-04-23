@@ -1,0 +1,130 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	position: relative;
+}
+
+.search-box-container{
+	float: right;
+}
+
+.search-box{
+	text-decoration: none;
+	color:#fff;
+	font-weight: 700;
+	padding: 10px 50px;
+	margin-right: 100px;
+}
+
+.btn-primary {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #006dcc;
+	*background-color: #0044cc;
+	background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+	background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+	background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+	background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+	background-repeat: repeat-x;
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.input-text{
+	padding: 7px;
+	width: 51%;
+	line-height: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.input-text:focus{
+	border-width: 1px;
+	border-color: #006dcc;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #006dcc;
+}
+
+.btn-search{
+	text-decoration: none;
+	color:#fff;
+	font-weight: 700;
+	padding: .5% 5%;
+	margin-right: 100px;
+	line-height: 40px;
+	vertical-align: top;
+	font-size: 18px;
+}
+
+.btn-search:hover{
+	background: #006fee !important;
+}
+
+.search-form-container{
+	margin: 10%  auto;
+	text-align: center;
+	position : relative;
+	
+}
+
+.auto-complete-box{
+	display: block;
+    margin-left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#auto-complete-ul{
+	margin-top: -30px;
+}
+
+.location-list{
+	display: block;
+	list-style: none;
+	color: #fff;
+	font-size: 20px;
+	background: #1E90FF;
+	padding: 10px 30px;
+	border-bottom: 1px solid  #Ffffff;
+	text-align: center;
+	cursor : pointer;
+}
+	
+
+/**Auto Loader**/
+.auto-loader{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	background: #fff;
+	opacity: 0.5;
+	z-index: 9999;
+	display: none;
+	
+}
+
+.loader-img-container{
+	position: absolute;
+	top: 30%;
+	left:45%;
+	z-index: 99999;
+	border: 2px solid #556674;
+	padding: 20px 50px;
+}
+
+.loader-img{
+	width: 75px;
+	height: 75px;
+}
+
+
+
+
+
